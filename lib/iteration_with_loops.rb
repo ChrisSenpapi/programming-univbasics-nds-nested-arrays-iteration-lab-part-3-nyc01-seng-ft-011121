@@ -3,9 +3,9 @@ new_strings = ""
   src.each do |array|
     array.each do |element|
     if element.is_a? String
-       new_str = new_str + " " +element
+       new_strings = new_strings + " " +element
      end
   end
 end
-  new_str
+  new_strings
 end

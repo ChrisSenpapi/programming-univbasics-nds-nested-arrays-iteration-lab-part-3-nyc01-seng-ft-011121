@@ -1,5 +1,5 @@
 def join_nested_strings(src)
-new_str = ""
+new_strings = ""
   src.each do |array|
     array.each do |element|
     if element.is_a? String
